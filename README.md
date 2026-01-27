@@ -39,3 +39,4 @@ We gratefully acknowledge the contributions of all open-source datasets and mode
 
 1. Code for CFD volume data training will be made publicly available upon publication, subject to proper request procedures.
 2. A more organized version of the codebase will be released upon paper publication.
+3. Experiment results are stored in slurms.
