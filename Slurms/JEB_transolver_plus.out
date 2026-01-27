@@ -1,0 +1,318 @@
+🔄 Creating split indexes...
+Using 2138 JEB samples from index list
+
+🔄 Creating JEB data loaders...
+Available JEB sample files: 2138 total
+JEB data split:
+  - Training:   1498 simulations
+  - Validation: 214 simulations
+  - Testing:    426 simulations
+
+🏗️  Creating Transolver model for JEB...
+Model parameters: 4528713
+Loaded model from trained_models_JEB/best_transolver_seg_model.pth
+
+🎯 Starting JEB training...
+Using device: cuda
+Loaded normalization stats: mean=23.089350, std=80.643227
+Starting JEB transolver_seg training for 100 epochs...
+Epoch 1/100:
+  Learning Rate: 4.260071e-06
+  Train Loss: 0.627445
+  Val Loss: 0.617393
+  Val Relative Error: 0.754680
+  ✅ New best model saved! (Relative Error: 0.754680)
+Epoch 3/100:
+  Learning Rate: 6.323756e-06
+  Train Loss: 0.605489
+  Val Loss: 0.588303
+  Val Relative Error: 0.736463
+  ✅ New best model saved! (Relative Error: 0.736463)
+Epoch 5/100:
+  Learning Rate: 1.036192e-05
+  Train Loss: 0.595705
+  Val Loss: 0.577707
+  Val Relative Error: 0.727687
+  ✅ New best model saved! (Relative Error: 0.727687)
+Epoch 7/100:
+  Learning Rate: 1.620000e-05
+  Train Loss: 0.604755
+  Val Loss: 0.580583
+  Val Relative Error: 0.733450
+Epoch 9/100:
+  Learning Rate: 2.358563e-05
+  Train Loss: 0.603598
+  Val Loss: 0.581993
+  Val Relative Error: 0.721516
+  ✅ New best model saved! (Relative Error: 0.721516)
+Epoch 11/100:
+  Learning Rate: 3.219955e-05
+  Train Loss: 0.610558
+  Val Loss: 0.589640
+  Val Relative Error: 0.735633
+Epoch 13/100:
+  Learning Rate: 4.166939e-05
+  Train Loss: 0.611395
+  Val Loss: 0.685042
+  Val Relative Error: 0.787171
+Epoch 15/100:
+  Learning Rate: 5.158581e-05
+  Train Loss: 0.632082
+  Val Loss: 0.631053
+  Val Relative Error: 0.751412
+Epoch 17/100:
+  Learning Rate: 6.152013e-05
+  Train Loss: 0.613060
+  Val Loss: 0.558820
+  Val Relative Error: 0.709384
+  ✅ New best model saved! (Relative Error: 0.709384)
+Epoch 19/100:
+  Learning Rate: 7.104291e-05
+  Train Loss: 0.591450
+  Val Loss: 0.624888
+  Val Relative Error: 0.769256
+Epoch 21/100:
+  Learning Rate: 7.974251e-05
+  Train Loss: 0.566890
+  Val Loss: 0.545930
+  Val Relative Error: 0.714490
+Epoch 23/100:
+  Learning Rate: 8.724287e-05
+  Train Loss: 0.598296
+  Val Loss: 0.590499
+  Val Relative Error: 0.726416
+Epoch 25/100:
+  Learning Rate: 9.321977e-05
+  Train Loss: 0.598099
+  Val Loss: 0.595350
+  Val Relative Error: 0.734644
+Epoch 27/100:
+  Learning Rate: 9.741483e-05
+  Train Loss: 0.548227
+  Val Loss: 0.552651
+  Val Relative Error: 0.705154
+  ✅ New best model saved! (Relative Error: 0.705154)
+Epoch 29/100:
+  Learning Rate: 9.964671e-05
+  Train Loss: 0.531054
+  Val Loss: 0.527448
+  Val Relative Error: 0.688859
+  ✅ New best model saved! (Relative Error: 0.688859)
+Epoch 31/100:
+  Learning Rate: 9.996535e-05
+  Train Loss: 0.513374
+  Val Loss: 0.507290
+  Val Relative Error: 0.676810
+  ✅ New best model saved! (Relative Error: 0.676810)
+Epoch 33/100:
+  Learning Rate: 9.960062e-05
+  Train Loss: 0.520886
+  Val Loss: 0.481371
+  Val Relative Error: 0.663581
+  ✅ New best model saved! (Relative Error: 0.663581)
+Epoch 35/100:
+  Learning Rate: 9.884107e-05
+  Train Loss: 0.471812
+  Val Loss: 0.448419
+  Val Relative Error: 0.634280
+  ✅ New best model saved! (Relative Error: 0.634280)
+Epoch 37/100:
+  Learning Rate: 9.769275e-05
+  Train Loss: 0.456697
+  Val Loss: 0.486561
+  Val Relative Error: 0.657331
+Epoch 39/100:
+  Learning Rate: 9.616480e-05
+  Train Loss: 0.457310
+  Val Loss: 0.476510
+  Val Relative Error: 0.663425
+Epoch 41/100:
+  Learning Rate: 9.426938e-05
+  Train Loss: 0.441733
+  Val Loss: 0.467602
+  Val Relative Error: 0.641447
+Epoch 43/100:
+  Learning Rate: 9.202159e-05
+  Train Loss: 0.440812
+  Val Loss: 0.426785
+  Val Relative Error: 0.624174
+  ✅ New best model saved! (Relative Error: 0.624174)
+Epoch 45/100:
+  Learning Rate: 8.943931e-05
+  Train Loss: 0.436519
+  Val Loss: 0.430115
+  Val Relative Error: 0.607991
+  ✅ New best model saved! (Relative Error: 0.607991)
+Epoch 47/100:
+  Learning Rate: 8.654309e-05
+  Train Loss: 0.407767
+  Val Loss: 0.398452
+  Val Relative Error: 0.601843
+  ✅ New best model saved! (Relative Error: 0.601843)
+Epoch 49/100:
+  Learning Rate: 8.335601e-05
+  Train Loss: 0.413130
+  Val Loss: 0.396984
+  Val Relative Error: 0.589853
+  ✅ New best model saved! (Relative Error: 0.589853)
+Epoch 51/100:
+  Learning Rate: 7.990341e-05
+  Train Loss: 0.409805
+  Val Loss: 0.430877
+  Val Relative Error: 0.619505
+Epoch 53/100:
+  Learning Rate: 7.621279e-05
+  Train Loss: 0.390074
+  Val Loss: 0.384436
+  Val Relative Error: 0.575802
+  ✅ New best model saved! (Relative Error: 0.575802)
+Epoch 55/100:
+  Learning Rate: 7.231353e-05
+  Train Loss: 0.389124
+  Val Loss: 0.391532
+  Val Relative Error: 0.586375
+Epoch 57/100:
+  Learning Rate: 6.823667e-05
+  Train Loss: 0.377344
+  Val Loss: 0.392949
+  Val Relative Error: 0.601264
+Epoch 59/100:
+  Learning Rate: 6.401465e-05
+  Train Loss: 0.376993
+  Val Loss: 0.380773
+  Val Relative Error: 0.583564
+Epoch 61/100:
+  Learning Rate: 5.968109e-05
+  Train Loss: 0.369447
+  Val Loss: 0.391575
+  Val Relative Error: 0.599568
+Epoch 63/100:
+  Learning Rate: 5.527048e-05
+  Train Loss: 0.353936
+  Val Loss: 0.358156
+  Val Relative Error: 0.566587
+  ✅ New best model saved! (Relative Error: 0.566587)
+Epoch 65/100:
+  Learning Rate: 5.081793e-05
+  Train Loss: 0.341851
+  Val Loss: 0.373026
+  Val Relative Error: 0.581925
+Epoch 67/100:
+  Learning Rate: 4.635889e-05
+  Train Loss: 0.341028
+  Val Loss: 0.360114
+  Val Relative Error: 0.565797
+  ✅ New best model saved! (Relative Error: 0.565797)
+Epoch 69/100:
+  Learning Rate: 4.192884e-05
+  Train Loss: 0.331508
+  Val Loss: 0.350143
+  Val Relative Error: 0.553855
+  ✅ New best model saved! (Relative Error: 0.553855)
+Epoch 71/100:
+  Learning Rate: 3.756306e-05
+  Train Loss: 0.331145
+  Val Loss: 0.357818
+  Val Relative Error: 0.571938
+Epoch 73/100:
+  Learning Rate: 3.329630e-05
+  Train Loss: 0.326760
+  Val Loss: 0.345798
+  Val Relative Error: 0.555618
+Epoch 75/100:
+  Learning Rate: 2.916252e-05
+  Train Loss: 0.315303
+  Val Loss: 0.334439
+  Val Relative Error: 0.541730
+  ✅ New best model saved! (Relative Error: 0.541730)
+Epoch 77/100:
+  Learning Rate: 2.519463e-05
+  Train Loss: 0.305693
+  Val Loss: 0.322882
+  Val Relative Error: 0.536693
+  ✅ New best model saved! (Relative Error: 0.536693)
+Epoch 79/100:
+  Learning Rate: 2.142421e-05
+  Train Loss: 0.304805
+  Val Loss: 0.319796
+  Val Relative Error: 0.534551
+  ✅ New best model saved! (Relative Error: 0.534551)
+Epoch 81/100:
+  Learning Rate: 1.788127e-05
+  Train Loss: 0.295312
+  Val Loss: 0.335437
+  Val Relative Error: 0.548332
+Epoch 83/100:
+  Learning Rate: 1.459403e-05
+  Train Loss: 0.291535
+  Val Loss: 0.326636
+  Val Relative Error: 0.541484
+Epoch 85/100:
+  Learning Rate: 1.158863e-05
+  Train Loss: 0.286295
+  Val Loss: 0.323554
+  Val Relative Error: 0.536945
+Epoch 87/100:
+  Learning Rate: 8.889024e-06
+  Train Loss: 0.286321
+  Val Loss: 0.316324
+  Val Relative Error: 0.528463
+  ✅ New best model saved! (Relative Error: 0.528463)
+Epoch 89/100:
+  Learning Rate: 6.516683e-06
+  Train Loss: 0.281055
+  Val Loss: 0.313985
+  Val Relative Error: 0.527425
+  ✅ New best model saved! (Relative Error: 0.527425)
+Epoch 91/100:
+  Learning Rate: 4.490495e-06
+  Train Loss: 0.277735
+  Val Loss: 0.315258
+  Val Relative Error: 0.528114
+Epoch 93/100:
+  Learning Rate: 2.826589e-06
+  Train Loss: 0.275595
+  Val Loss: 0.320710
+  Val Relative Error: 0.534196
+Epoch 95/100:
+  Learning Rate: 1.538211e-06
+  Train Loss: 0.274083
+  Val Loss: 0.312292
+  Val Relative Error: 0.525254
+  ✅ New best model saved! (Relative Error: 0.525254)
+Epoch 97/100:
+  Learning Rate: 6.356167e-07
+  Train Loss: 0.273244
+  Val Loss: 0.313156
+  Val Relative Error: 0.526605
+Epoch 99/100:
+  Learning Rate: 1.259903e-07
+  Train Loss: 0.272614
+  Val Loss: 0.313930
+  Val Relative Error: 0.527411
+Training completed! Best validation relative error: 0.525254
+
+🧪 Evaluating on train / val / test splits...
+
+  Testing on training set...
+Loaded model from trained_models_JEB/best_transolver_seg_model.pth
+Loaded normalization stats: mean=23.089350, std=80.643227
+Test Results (JEB transolver_seg):
+  Test Loss: 0.273000
+  Test Relative Error: 0.490909
+
+  Testing on validation set...
+Loaded model from trained_models_JEB/best_transolver_seg_model.pth
+Loaded normalization stats: mean=23.089350, std=80.643227
+Test Results (JEB transolver_seg):
+  Test Loss: 0.312292
+  Test Relative Error: 0.525254
+
+  Testing on test set...
+Loaded model from trained_models_JEB/best_transolver_seg_model.pth
+Loaded normalization stats: mean=23.089350, std=80.643227
+Test Results (JEB transolver_seg):
+  Test Loss: 0.296543
+  Test Relative Error: 0.508173
+
+✅ JEB pipeline completed!
