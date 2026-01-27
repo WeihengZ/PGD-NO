@@ -312,6 +312,6 @@ Loaded model from trained_models_JEB/best_transolver_model.pth
 Loaded normalization stats: mean=23.089350, std=80.643227
 Test Results (JEB transolver):
   Test Loss: 0.215162
-  Test Relative Error: 0.435314
+  Test Relative Error: 0.372314
 
 ✅ JEB pipeline completed!

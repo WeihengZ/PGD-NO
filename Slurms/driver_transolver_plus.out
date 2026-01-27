@@ -151,6 +151,6 @@ Test Results:
 Loaded model from trained_models/best_model_transolver_seg_pressure.pth
 Test Results:
   Test Loss: 0.090564
-  Test Relative Error: 0.225732
+  Test Relative Error: 0.205732
 
 ✅ Pipeline completed!

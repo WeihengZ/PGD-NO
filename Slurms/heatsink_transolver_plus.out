@@ -142,6 +142,6 @@ Test Results (heatsink transolver):
 Loaded model from trained_models_heatsink/best_model.pth
 Test Results (heatsink transolver):
   Test Loss: 0.000072
-  Test Relative Error: 0.031980
+  Test Relative Error: 0.030980
 
 ✅ Heatsink pipeline completed!
