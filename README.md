@@ -1,5 +1,5 @@
 # PGD-NO
-Official Implementation of Precomputed Geometry Decomposition Neural Operator
+**Official Implementation of Precomputed Geometry Decomposition Neural Operator**
 
 [ICML 2026] PGD-NO: A Neural Operator with Precomputed Geometry Decomposition for 3D Million-Scale physics simulations
 
