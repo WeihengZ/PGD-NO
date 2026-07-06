@@ -3,6 +3,8 @@ Official Implementation of Precomputed Geometry Decomposition Neural Operator
 
 [ICML 2026] PGD-NO: A Neural Operator with Precomputed Geometry Decomposition for 3D Million-Scale physics simulations
 
+![PGD NO](asset/PGD_NO.png)
+
 ## Environment Setup
 
 Run the setup script to create a conda environment and install all required dependencies:
