@@ -43,3 +43,17 @@ We gratefully acknowledge the contributions of all open-source datasets and mode
 
 1. Code for CFD volume data training will be made publicly available upon publication, subject to proper request procedures.
 2. Experiment results are stored in slurms.
+
+## Citation
+Please consider citing our paper if you think our work is useful for your research.
+```
+@misc{zhong2026pgdnoneuraloperatorprecomputed,
+      title={PGD-NO: A Neural Operator with Precomputed Geometry Decomposition for 3D Million-scale Physics Simulations}, 
+      author={Weiheng Zhong and Jing Bi and Victor Oancea and Hadi Meidani},
+      year={2026},
+      eprint={2607.08025},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2607.08025}, 
+}
+```
